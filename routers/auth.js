@@ -12,7 +12,7 @@ const validator = createValidator();
 const router = Router();
 
 router.post("/signUp", validator.body(SignUpSchema), signUp);
-router.post("/very", validator.body(verifyOtpSchema), verifyOtp);
+router.post("/verify", validator.body(verifyOtpSchema), verifyOtp);
 router.post("/signIn", validator.body(signInSchema), signIn)
 
 export default router;
