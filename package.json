@@ -1,0 +1,35 @@
+{
+  "name": "skyshow",
+  "version": "1.0.0",
+  "description": "this a repo uses binance API to run a bot the main functionality of the bot is to buy and sall cryptocurrency on the binance paltform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon start index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "date-fn": "^0.0.2",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-joi-validation": "^5.0.1",
+    "handlebars": "^4.7.8",
+    "helmet": "^8.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2",
+    "mongoose-paginate-v2": "^1.8.5",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "validator": "^13.12.0"
+  }
+}

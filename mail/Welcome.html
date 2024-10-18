@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyshow Welcome Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #fbfcfc;
+            color: #86d3d3;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #35C0C5;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Welcome Email Template -->
+    <div class="container">
+        <div class="header">
+            <img src= "https://res.cloudinary.com/dh6jpjsse/image/upload/v1728510612/logo_rsnvwe.png" alt="Solutions Platforms Logo" class="logo">
+            <h1>Welcome to Skyshow</h1>
+        </div>
+        <div class="content">
+            <p>Dear {{name}},</p>
+            <p>Welcome to Skyshow! We're excited to have you on board.</p>
+            <p>Get started by exploring our features and unlocking your potential.</p>
+            <a href="{{link}}" class="button">Get Started</a>
+        </div>
+        <div class="footer">
+            <p>&copy; {{date}} Solutions Platforms. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>`
