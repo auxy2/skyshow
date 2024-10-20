@@ -6,7 +6,7 @@ import compression from "compression";
 import paginator from "mongoose-paginate-v2";
 import morgan from "morgan";
 import helmet from "helmet";
-// import { corsOptions } from "./base/cors.js";
+import { corsOptions } from "./base/cors.js";
 import cookieParser from "cookie-parser";
 import notFound from "./middlewares/notfound.js";
 
@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 const server = http.createServer(app);
 
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 app.use(morgan("tiny"));
 app.use(helmet());
 
